@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458364747309",
+    "firebase_url": "https://fluttering-23571.firebaseio.com",
+    "project_id": "fluttering-23571",
+    "storage_bucket": "fluttering-23571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458364747309:android:bb128a2e1426ac6a2782a4",
+        "android_client_info": {
+          "package_name": "com.example.fluttering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458364747309-6nm20fjb233l47rasa7epld8s44lbncf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fluttering",
+            "certificate_hash": "cce74ab1a25bd4a8a1ac554528788136e62e1bc1"
+          }
+        },
+        {
+          "client_id": "458364747309-hboanih4atlj1oetp9nn14i7lhn352ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApDEJC9PTXJGzDSPZprFW0imx5DEbOw7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458364747309-hboanih4atlj1oetp9nn14i7lhn352ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
