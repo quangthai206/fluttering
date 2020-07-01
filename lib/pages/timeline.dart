@@ -125,7 +125,7 @@ class _TimelineState extends State<Timeline> {
   Widget build(context) {
     return Scaffold(
         key: _scaffoldKey,
-        appBar: header(context, isAppTitle: true),
+        appBar: header(context, isAppTitle: true, removeBackButton: true),
         body: RefreshIndicator(
             onRefresh: () => getTimeline(), child: buildTimeline()));
   }

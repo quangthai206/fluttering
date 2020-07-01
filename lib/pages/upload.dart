@@ -278,10 +278,11 @@ class _UploadState extends State<Upload>
     List<Placemark> placemarks = await Geolocator()
         .placemarkFromCoordinates(position.latitude, position.longitude);
     Placemark placemark = placemarks[0];
-    String completeAddress =
-        '${placemark.subThoroughfare} ${placemark.thoroughfare}, ${placemark.subLocality} ${placemark.locality}, ${placemark.subAdministrativeArea}, ${placemark.administrativeArea} ${placemark.postalCode}, ${placemark.country}';
-    print(completeAddress);
-    String formattedAddress = "${placemark.locality}, ${placemark.country}";
+//    String completeAddress =
+//        'subThoroughfare${placemark.subThoroughfare} thoroughfare${placemark.thoroughfare}, subLocality${placemark.subLocality} locality${placemark.locality}, subAdministrativeArea${placemark.subAdministrativeArea}, administrativeArea${placemark.administrativeArea} postalCode${placemark.postalCode}, country${placemark.country}';
+//    print(completeAddress);
+    String formattedAddress =
+        "${placemark.subAdministrativeArea}, ${placemark.administrativeArea}, ${placemark.country}";
     locationController.text = formattedAddress;
   }
 
